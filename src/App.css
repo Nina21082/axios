@@ -66,4 +66,34 @@
   font-size: 14px;
   padding: 6px
 }
+.closeComment{
+  display: none;
+}
+.openComment{
+  display: block;
+}
+.todos{
+  text-align: left;
+  display: flex;
+  padding: 7px;
+}
+.input{
+  display: flex;
+}
+.delate{
+  background-color: red;
+  height: 33px;
+  margin: 5px;
+}
+.complate{
+  background-color: green;
+  height: 33px;
+  margin: 5px;
+}
+.complated{
+  text-decoration: line-through;
+}
+.uncomplated{
+  text-decoration: none;
+}
 

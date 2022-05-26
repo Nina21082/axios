@@ -1,8 +1,8 @@
 export const InputElement = (props) =>{
     return(
-        <div className="input-group mb-3">
+        <div className="col-6 input">
         <input type="text" className="form-control"aria-label="Recipient's username" aria-describedby="button-addon2" value={props.value}/>
-        <button type="button" class="btn btn-success">Add</button>
+        <button type="button" className="btn btn-success">Add</button>
         </div>
     )
 }

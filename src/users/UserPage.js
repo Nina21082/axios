@@ -20,11 +20,11 @@ export class UserPage extends React.Component{
         return(
                 <>   
                 
-                <div class="container">
-                    <div class="row">
+                <div className="container">
+                    <div className="row">
                 {this.state.user.map(user => (
                  
-                      <div class="col-3" key={user.id}>
+                      <div className="col-3" key={user.id}>
                         <div className="card mb-3">
                             <div className="row g-0">
                                 <div className="col-md-4">
