@@ -39,12 +39,7 @@
     transform: rotate(360deg);
   }
 }
-.done{
-  text-decoration: line-through;
-}
-.undone{
-  text-decoration: none 
-}
+
 .todo{
 
   text-decoration: none;
@@ -80,20 +75,17 @@
 .input{
   display: flex;
 }
-.delate{
-  background-color: red;
-  height: 33px;
-  margin: 5px;
-}
-.complate{
-  background-color: green;
-  height: 33px;
-  margin: 5px;
-}
 .complated{
   text-decoration: line-through;
 }
 .uncomplated{
   text-decoration: none;
+}
+
+.profile-photo-lg{
+  width: 50%;
+  border: 1px solid black;
+  margin: 15px;
+  background: #ddd5b62b
 }
 
